@@ -76,10 +76,10 @@
 					<li name="navItems"><a class="page-scroll" href="#photography">Photography</a>
 					</li>
 					<li id="projectDropdown">
-					  <a class="page-scroll dropdown-toggle" href="#" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a>
+                          <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
+                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -97,9 +97,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-                        <a href="#about" class="btn btn-circle page-scroll">
+<!--                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        </a> -->
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 				<p>
 					Tyler Raney is a software developer and world traveler originally from Hartland, VT.
 					He is a graduate from Northeastern University and has lived the majority of
-					his adult live in Boston, MA and San Francisco, CA.  In his spare time he can be
+					his adult live in Boston, MA and San Francisco, CA.  In his spare time, he can be
 					found consuming digital media, hiking, traveling, or learning something new.
 				</p>
 			</div>

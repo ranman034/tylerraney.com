@@ -69,10 +69,10 @@
 					<li name="navItems"><a class="page-scroll" href="#photography">Photography</a>
 					</li>
 					<li id="projectDropdown">
-					  <a class="page-scroll dropdown-toggle" href="#" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a>
+                          <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
+                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -91,11 +91,11 @@
                 <div class="row">
                   <div class="col-md-8 col-md-offset-2">
                     <div class="rounded-section">
-                      <h1 class="brand-heading">tylerraney</h1>
+                      <h1 class="brand-heading-medium">tyler<br>raney.com</h1>
                     </div>
-                    <a href="#explanation" class="btn btn-circle page-scroll">
+<!--                     <a href="#explanation" class="btn btn-circle page-scroll">
                       <i class="fa fa-angle-double-down animated"></i>
-                    </a>
+                    </a> -->
                   </div>
                 </div>
             </div>
@@ -124,6 +124,7 @@
 							height="100" width="100">
 						</a>
 					</div>
+					<hr>
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -133,13 +134,14 @@
 					   photographs I've taken, and ways to contact me.
 					   I used a of combination Java/Spring/Hibernate and AJAX to quickly display photograph's based on selected tags.
 					   Code for this site can be found on my <a href="https://github.com/ranman034/tylerraney.com">Github</a> account.</p>
+					<hr>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="explanation"
-		class="container explaination-section text-center">
+		class="container explaination-section-info text-center">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="skills">

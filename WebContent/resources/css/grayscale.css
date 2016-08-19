@@ -101,13 +101,27 @@ a:focus {
 .navbar-custom .nav li.open a {
   background-color: rgba(255, 255, 255, 0.3);
 }
-.dropdown-menu {
+
+.navbar-nav .open .dropdown-menu {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-width: 0px;
+}
+
 .navbar-custom .nav li.open a.dropdown-item {
   background-color: transparent;
   padding: 5px 5px;
 }
+
+.navbar-custom .nav li.open a.dropdown-item:hover {
+  background-color: transparent;
+  padding: 5px 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
@@ -249,6 +263,10 @@ a:focus {
   border-radius: 10px;
 }
 
+.rounded-section .brand-heading-medium {
+	font-size:85px;
+}
+
 #map {
   width: 100%;
   height: 200px;
@@ -349,7 +367,27 @@ hr {
 }
 
 .explaination-section {
-	padding-top: 150px;
+	padding-top: 135px;
+}
+
+.explaination-section-info {
+	padding-top: 75px;
+}
+
+.screenshots {
+	padding-top:15px;
+}
+
+.screenshots hr {
+	width:50%;
+}
+
+.description {
+	padding-top:15px;
+}
+
+.description hr {
+	width:50%;
 }
 
 .skills ul {
@@ -360,5 +398,13 @@ hr {
 }
 
 .skills hr {
+	width:50%;
+}
+
+.site-link {
+	padding-top:15px;
+}
+
+.site-link hr {
 	width:50%;
 }

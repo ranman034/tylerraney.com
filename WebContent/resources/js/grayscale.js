@@ -21,17 +21,13 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         var $href = $anchor.attr('href');
-        if (typeof $href !== typeof undefined && $href !== false) {
-            // ...
+        if (typeof $href !== typeof undefined && $href !== false && $href != '#projects') {
+        	$('html, body').stop().animate({
+                scrollTop: $($href).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+            $('.navbar-toggle:visible').click();
         }
-        else
-        {
-        	$href = '#projects';
-        }
-        $('html, body').stop().animate({
-            scrollTop: $($href).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
     });
 });
 
@@ -43,7 +39,9 @@ $('.navbar-collapse ul li ul li a').click(function() {
 });
 
 $('.navbar-collapse ul li ul li a.page-scroll').click(function() {
-	$('.navbar-toggle:visible').click();
+	if ($(this).Id=="projectDropdown"){
+		$('.navbar-toggle:visible').click();
+	}
 });
 
 $('li[name="navItems"]').click(function(){
