@@ -70,6 +70,10 @@ $("#projectDropdown").click(function() {
 			this.className = "active";
 		}
     }
+	else
+	{
+		this.className =  this.className.replace(/(?:^|\s)active(?!\S)/g , '' );
+	}
 });
 
 $("#projectDropdown").dblclick(function() {

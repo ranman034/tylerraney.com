@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Tyler Raney - Home</title>
+<title>Tyler Raney - Senior Project</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.css"
@@ -126,7 +126,8 @@
 				<div class="description">
 					<h1>Description</h1>
 					<p>Created a simple movie database with the ability to search by either movie 
-					title or an actor's name. Also include some examples for JQuery and ASP.NET.</p>
+					title or an actor's name. Also include some examples for JQuery and ASP.NET. The
+					project can be found <a href="http://net4.ccs.neu.edu/home/ranman34/">here</a>.</p>
 					<hr>
 				</div>
 			</div>
@@ -136,7 +137,7 @@
 	<section id="explanation"
 		class="container explaination-section-info text-center">
 		<div class="row">
-			<div class="col-lg-6 text-center">
+			<div class="col-lg-12 text-center">
 				<div class="skills">
 					<h1>Skills</h1>
 					<ul>
@@ -144,14 +145,6 @@
 						<li><strong>Front-end:</strong>&nbsp;Javascript,&nbsp;JQuery,&nbsp;HTML,&nbsp;CSS</li>
 						<li><strong>Back-end:</strong>&nbsp;C#, ASP.NET</li>
 					</ul>
-					<hr>
-				</div>
-			</div>
-			<div class="col-lg-6 text-center">
-				<div class="site-link">
-					<h1>Link</h1>
-					<a href="http://net4.ccs.neu.edu/home/ranman34/"
-						class="btn btn-default btn-lg">Senior Project</a>
 					<hr>
 				</div>
 			</div>

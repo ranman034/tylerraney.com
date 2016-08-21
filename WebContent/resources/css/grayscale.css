@@ -292,6 +292,7 @@ a:focus {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
+  margin-top:2px;
 }
 .btn-default {
   border: 1px solid #42DCA3;
@@ -384,17 +385,28 @@ hr {
 
 .description {
 	padding-top:15px;
+	display:inline-block;
+    width: auto;
+}
+
+.description p {
+	text-align:left;
 }
 
 .description hr {
 	width:50%;
 }
 
+.skills {
+	display:inline-block;
+    width: auto;
+}
 .skills ul {
     list-style-position: inside;
     list-style-type: none;
     padding-left: 0px;
     font-size: 16px;
+    text-align:left;
 }
 
 .skills hr {

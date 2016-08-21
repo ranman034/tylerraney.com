@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Tyler Raney - Home</title>
+<title>Tyler Raney - tylerraney.com</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.css"
@@ -127,7 +127,7 @@
 					<hr>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 text-center">
 				<div class="description">
 					<h1>Description</h1>
 					<p>A personal website I created to strengthen my web development skills. Includes projects I've worked on, 

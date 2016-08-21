@@ -67,24 +67,7 @@ $('.token').click(function(){
 			$("#photosDiv").html(response); 
 		},
 		error : function(e) {
-			alert('Error: ' + e);
+			alert('Photogallery error please refresh page.');
 		}
 	}); 
 });
-
-/*
-
-$('#tokenfield-typeahead').tokenfield({
-  autocomplete: {
-    source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
-    delay: 100
-  },
-  showAutocompleteOnFocus: true
-});
-
-$('tokenfield-typeahead').on('tokenfield:initialize', function (e) {
-  var data = e.attrs.value
-  e.attrs.value = data
-  e.attrs.label = data
-  
-}).tokenfield() */

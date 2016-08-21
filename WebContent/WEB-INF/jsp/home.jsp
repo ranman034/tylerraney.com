@@ -113,8 +113,8 @@
 				<h2>About Tyler</h2>
 				<p>
 					Tyler Raney is a software developer and world traveler originally from Hartland, VT.
-					He is a graduate from Northeastern University and has lived the majority of
-					his adult live in Boston, MA and San Francisco, CA.  In his spare time, he can be
+					He is a graduate of Northeastern University and has lived the majority of
+					his adult life in Boston, MA and San Francisco, CA.  In his spare time, he can be
 					found consuming digital media, hiking, traveling, or learning something new.
 				</p>
 			</div>
@@ -128,10 +128,11 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Photography</h2>
 				<p>
-				    Pictures I have taken from my travels around the world.
+				    Here are some of my favorite photographs from my travels.
 				</p>
-                <div id="photosDiv"></div>
+				<div id="photosDiv"></div>
                 <hr>
+                <i>select a tag to filter photographs.</i>
 				<input type="text" class="form-control" id="tokenfield-typeahead" value="${tags}" />
 				
 				<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
@@ -176,10 +177,10 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h2>Projects</h2>
 					<ul class="list-inline">
-					  <li><a href="tylerRaneyProject" class="btn btn-default btn-lg">TylerRaney.com</a>
+					  <li><a href="tylerRaneyProject" class="btn btn-default btn-lg">TylerRaney.com</a><br>
 					  </li>
 					  <li><a href="vcciccProject"
-						class="btn btn-default btn-lg">VCCICC Database</a>
+						class="btn btn-default btn-lg">VCCICC Database</a><br>
 					  </li>
 					  <li><a href="seniorProject"
 						class="btn btn-default btn-lg">Senior Project</a>
@@ -195,10 +196,7 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Contact Tyler Raney</h2>
-				<p>Feel free to email me to say hello.</p>
-				<p>
-					<a href="mailto:tylergraney@gmail.com">tylergraney@gmail.com</a>
-				</p>
+				<p>Please feel free to contact me at <a href="mailto:tylergraney@gmail.com">tylergraney@gmail.com</a></p>
 				<ul class="list-inline banner-social-buttons">
 					<li><a href="https://www.instagram.com/tylerranman/"
 						class="btn btn-default btn-lg"><i
