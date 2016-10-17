@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Tyler Raney - VCCICC</title>
+<title>Tyler Raney - GMA</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.css"
@@ -85,19 +85,19 @@
 		<!-- /.container -->
 	</nav>
 
-    <!-- Intro Header -->
+   <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                       <div class="rounded-section">
-                          <h1 class="brand-heading">VCCICC</h1>
-                          <h2>2016</h2>
-                       </div>
-<!--                        <a href="#explanation" class="btn btn-circle page-scroll">
+                      <div class="rounded-section">
+                        <h1 class="brand-heading">Green Mountain Armory</h1>
+                        <h2>2016</h2>
+				      </div>
+<!-- 				      <a href="#explanation" class="btn btn-circle page-scroll">
                           <i class="fa fa-angle-double-down animated"></i>
-                       </a> -->
+                      </a> -->
                     </div>
                 </div>
             </div>
@@ -111,25 +111,13 @@
 				<div class="screenshots">
 					<h1>Screenshots</h1>
 					<div id="links">
-						<a href="resources/img/vccicc/screenshot1.jpg"
+						<a href="resources/img/gma/screenshot1.jpg"
 							title="Screenshot 1" data-gallery> <img
-							src="resources/img/vccicc/screenshot1.jpg" alt="Screenshot 1"
+							src="resources/img/gma/screenshot1.jpg" alt="Screenshot 1"
 							height="100" width="100">
-						</a> <a href="resources/img/vccicc/screenshot2.jpg"
+						</a> <a href="resources/img/gma/screenshot2.jpg"
 							title="Screenshot 2" data-gallery> <img
-							src="resources/img/vccicc/screenshot2.jpg" alt="Screenshot 2"
-							height="100" width="100">
-						</a> <br> <a href="resources/img/vccicc/screenshot4.jpg"
-							title="Screenshot 3" data-gallery> <img
-							src="resources/img/vccicc/screenshot4.jpg" alt="Screenshot 3"
-							height="100" width="100">
-						</a> <a href="resources/img/vccicc/screenshot3.jpg"
-							title="Screenshot 4" data-gallery> <img
-							src="resources/img/vccicc/screenshot3.jpg" alt="Screenshot 4"
-							height="100" width="100">
-						</a> <a href="resources/img/vccicc/screenshot5.jpg"
-							title="Screenshot 5" data-gallery> <img
-							src="resources/img/vccicc/screenshot5.jpg" alt="Screenshot 5"
+							src="resources/img/gma/screenshot2.jpg" alt="Screenshot 2"
 							height="100" width="100">
 						</a>
 					</div>
@@ -139,8 +127,8 @@
 			<div class="col-lg-6">
 				<div class="description">
 					<h1>Description</h1>
-					<p>Created a website to simplify the process of tracking data used by the Vermont Child 
-					Care Industry and Careers Council (VCCICC).  I self taught myself Python and Django to create this.</p>
+					<p>Redesigned the company website for Green Mountain Armory. 
+					The site can be found <a href="http://www.greenmountainarmory.com/">here</a>.</p>
 					<hr>
 				</div>
 			</div>
@@ -154,11 +142,11 @@
 				<div class="skills">
 					<h1>Skills</h1>
 					<ul>
-						<li><strong>Database:</strong>&nbsp;PostgreSQL</li>
 						<li><strong>Front-end:</strong>&nbsp;Javascript,&nbsp;JQuery,&nbsp;HTML,&nbsp;CSS</li>
-						<li><strong>Back-end:</strong>&nbsp;Python, Django</li>
-						<li><strong>PaaS:</strong>&nbsp;Heroku</li>
-						<li><strong>Version control:</strong>&nbsp;Git</li>
+						<li><strong>Styling:</strong>&nbsp;
+	                    <a href="http://getbootstrap.com/">Bootstrap</a>,&nbsp;
+						<a href="https://startbootstrap.com/template-overviews/agency/">
+						Agency</a>&nbsp;<br></li>
 					</ul>
 					<hr>
 				</div>

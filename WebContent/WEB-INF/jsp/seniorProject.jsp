@@ -71,8 +71,9 @@
 					<li id="projectDropdown">
 					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					      <a class="dropdown-item" href="gmaProject">Green Mountain Armory</a><br>
                           <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a><br>
+                          <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -92,6 +93,7 @@
                     <div class="col-md-8 col-md-offset-2">
                       <div class="rounded-section">
                         <h1 class="brand-heading">Senior Project</h1>
+                        <h2>2011</h2>
 				      </div>
 <!-- 				      <a href="#explanation" class="btn btn-circle page-scroll">
                           <i class="fa fa-angle-double-down animated"></i>

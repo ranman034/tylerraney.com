@@ -48,6 +48,11 @@ public class TylerRaneyHome {
         return "photos";
     }
     
+    @RequestMapping("/gmaProject")
+	public String goToGmaProject() {
+		return "gmaProject";
+	}
+    
 	@RequestMapping("/tylerRaneyProject")
 	public String goToTylerRaneyProject() {
 		return "tylerRaneyProject";

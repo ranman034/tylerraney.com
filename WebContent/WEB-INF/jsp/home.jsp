@@ -78,8 +78,9 @@
 					<li id="projectDropdown">
 					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					      <a class="dropdown-item" href="gmaProject">Green Mountain Armory</a><br>
                           <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC Project</a><br>
+                          <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -177,6 +178,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h2>Projects</h2>
 					<ul class="list-inline">
+					  <li><a href="gmaProject" class="btn btn-default btn-lg">Green Mountain Armory</a><br>
+					  </li>
 					  <li><a href="tylerRaneyProject" class="btn btn-default btn-lg">TylerRaney.com</a><br>
 					  </li>
 					  <li><a href="vcciccProject"
@@ -196,8 +199,11 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Contact Tyler Raney</h2>
-				<p>Please feel free to contact me at <a href="mailto:tylergraney@gmail.com">tylergraney@gmail.com</a></p>
 				<ul class="list-inline banner-social-buttons">
+				    <li><a href="mailto:tylergraney@gmail.com"
+						class="btn btn-default btn-lg"><i
+							class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+					</li>
 					<li><a href="https://www.instagram.com/tylerranman/"
 						class="btn btn-default btn-lg"><i
 							class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>

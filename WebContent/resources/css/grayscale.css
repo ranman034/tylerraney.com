@@ -255,14 +255,18 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-
+.download-section .btn {
+	margin-bottom:15px;
+}
 .rounded-section {
   background-color: black;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px; 
   border-radius: 10px;
 }
-
+.rounded-section h2 {
+	color: #42DCA3;
+}
 .rounded-section .brand-heading-medium {
 	font-size:85px;
 }
@@ -419,4 +423,10 @@ hr {
 
 .site-link hr {
 	width:50%;
+}
+
+.dropdown-menu,
+.dropdown-item {
+	min-width:250px;
+	text-align:left;
 }
