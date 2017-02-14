@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Tyler Raney - tylerraney.com</title>
+<title>Tyler Raney - SA</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.css"
@@ -85,21 +85,21 @@
 		</div>
 		<!-- /.container -->
 	</nav>
-	
-    <!-- Intro Header -->
+
+   <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="rounded-section">
-                      <h1 class="brand-heading">tyler<br>raney</h1>
-                      <h2>2016</h2>
+                    <div class="col-md-8 col-md-offset-2">
+                      <div class="rounded-section">
+                        <h1 class="brand-heading">Sirearms</h1>
+                        <h2>2017</h2>
+				      </div>
+<!-- 				      <a href="#explanation" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a> -->
                     </div>
-<!--                     <a href="#explanation" class="btn btn-circle page-scroll">
-                      <i class="fa fa-angle-double-down animated"></i>
-                    </a> -->
-                  </div>
                 </div>
             </div>
         </div>
@@ -112,31 +112,20 @@
 				<div class="screenshots">
 					<h1>Screenshots</h1>
 					<div id="links">
-						<a href="resources/img/tylerraney.com/screenshot1.jpg"
+						<a href="resources/img/sirearms/screenshot1.jpg"
 							title="Screenshot 1" data-gallery> <img
-							src="resources/img/tylerraney.com/screenshot1.jpg" alt="Screenshot 1"
-							height="100" width="100">
-						</a> <a href="resources/img/tylerraney.com/screenshot2.jpg"
-							title="Screenshot 2" data-gallery> <img
-							src="resources/img/tylerraney.com/screenshot2.jpg" alt="Screenshot 2"
-							height="100" width="100">
-						</a>
-						<a href="resources/img/tylerraney.com/screenshot3.jpg"
-							title="Screenshot 3" data-gallery> <img
-							src="resources/img/tylerraney.com/screenshot3.jpg" alt="Screenshot 3"
+							src="resources/img/sirearms/screenshot1.jpg" alt="Screenshot 1"
 							height="100" width="100">
 						</a>
 					</div>
 					<hr>
 				</div>
 			</div>
-			<div class="col-lg-6 text-center">
+			<div class="col-lg-6">
 				<div class="description">
 					<h1>Description</h1>
-					<p>A personal website I created to strengthen my web development skills. Includes projects I've worked on, 
-					   photographs I've taken, and ways to contact me.
-					   I used a of combination Java/Spring/Hibernate and AJAX to quickly display photograph's based on selected tags.
-					   Code for this site can be found on my <a href="https://github.com/ranman034/tylerraney.com">Github</a> account.</p>
+					<p>Designed the company website for Sirearms. 
+					The site can be found <a href="http://www.sirearms.com/">here</a>.</p>
 					<hr>
 				</div>
 			</div>
@@ -150,21 +139,10 @@
 				<div class="skills">
 					<h1>Skills</h1>
 					<ul>
-						<li><strong>Database:</strong>&nbsp;PostgreSQL</li>
-						<li><strong>Front-end:</strong>&nbsp;Javascript,&nbsp;JQuery,&nbsp;AJAX,&nbsp;HTML,&nbsp;CSS</li>
-						<li><strong>Back-end:</strong>&nbsp;Java,&nbsp;Spring,&nbsp;Hibernate</li>
-						<li><strong>Web servers:</strong>&nbsp;Tomcat</li>
-						<li><strong>PaaS:</strong>&nbsp;Heroku</li>
-						<li><strong>Version control:</strong>&nbsp;Git</li>
-						<li><strong>Build tool:</strong>&nbsp;Maven</li>
+						<li><strong>Front-end:</strong>&nbsp;Javascript,&nbsp;JQuery,&nbsp;HTML,&nbsp;CSS</li>
 						<li><strong>Styling:</strong>&nbsp;
-	                    <a href="http://getbootstrap.com/">Bootstrap</a>,&nbsp;
-						<a href="https://startbootstrap.com/template-overviews/grayscale/">
-						Greyscale</a>,&nbsp;<br>
-						<a href="https://blueimp.github.io/Bootstrap-Image-Gallery/">
-						Bootstrap Image Galley</a>,&nbsp;
-						<a href="http://sliptree.github.io/bootstrap-tokenfield/">
-						Tokenfield for Bootstrap</a></li>
+	                    <a href="http://getbootstrap.com/">Bootstrap</a>
+	                    </li>
 					</ul>
 					<hr>
 				</div>

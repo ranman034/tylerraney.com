@@ -71,9 +71,10 @@
 					<li id="projectDropdown">
 					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					      <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
+					      <a class="dropdown-item" href="sirearmsProject">Sirearms</a><br>
 					      <a class="dropdown-item" href="gmaProject">Green Mountain Armory</a><br>
                           <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -188,7 +189,7 @@
 	<!-- Footer -->
 	<footer>
 		<div class="container text-center">
-			<p>Copyright &copy; Tyler Raney 2016</p>
+			<p>Copyright &copy; Tyler Raney 2017</p>
 		</div>
 	</footer>
 

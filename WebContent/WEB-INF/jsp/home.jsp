@@ -78,9 +78,10 @@
 					<li id="projectDropdown">
 					  <a class="page-scroll dropdown-toggle" href="#projects" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
+					      <a class="dropdown-item" href="sirearmsProject">Sirearms</a><br>
 					      <a class="dropdown-item" href="gmaProject">Green Mountain Armory</a><br>
                           <a class="dropdown-item" href="tylerRaneyProject">tylerraney.com</a><br>
-                          <a class="dropdown-item" href="vcciccProject">VCCICC</a><br>
                           <a class="dropdown-item" href="seniorProject">Senior Project</a>
                         </div>
                     </li>
@@ -178,12 +179,14 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h2>Projects</h2>
 					<ul class="list-inline">
+					  <li><a href="vcciccProject"
+						class="btn btn-default btn-lg">VCCICC Database</a><br>
+					  </li>
+					  <li><a href="sirearmsProject" class="btn btn-default btn-lg">Sirearms</a><br>
+					  </li>
 					  <li><a href="gmaProject" class="btn btn-default btn-lg">Green Mountain Armory</a><br>
 					  </li>
 					  <li><a href="tylerRaneyProject" class="btn btn-default btn-lg">TylerRaney.com</a><br>
-					  </li>
-					  <li><a href="vcciccProject"
-						class="btn btn-default btn-lg">VCCICC Database</a><br>
 					  </li>
 					  <li><a href="seniorProject"
 						class="btn btn-default btn-lg">Senior Project</a>
@@ -223,7 +226,7 @@
 	<!-- Footer -->
 	<footer>
 		<div class="container text-center">
-			<p>Copyright &copy; Tyler Raney 2016</p>
+			<p>Copyright &copy; Tyler Raney 2017</p>
 		</div>
 	</footer>
 

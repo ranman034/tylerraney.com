@@ -22,7 +22,7 @@ public class TestDb {
 
 		try {
 			// create a student object
-			System.out.println("Creating new photo object...");
+//			System.out.println("Creating new photo object...");
 			//String[] tags = {"Person", "Boston", "Landscape"};
 			//Photograph tempPhoto = new Photograph("Boy", "local", "local/thumb", tags);
 
@@ -32,9 +32,9 @@ public class TestDb {
 			@SuppressWarnings("unchecked")
 			List<Photograph> theStudents = session.createQuery("from Photograph").getResultList();
 			
-			for (Photograph tempStudent : theStudents) {
-				System.out.println(tempStudent);
-			}
+//			for (Photograph tempStudent : theStudents) {
+//				System.out.println(tempStudent);
+//			}
 
 			// save the student object
 			//System.out.println("Saving the photo ...");
@@ -43,7 +43,7 @@ public class TestDb {
 			// commit transaction
 			session.getTransaction().commit();
 
-			System.out.println("Done!");
+//			System.out.println("Done!");
 		}
 		finally {
 			factory.close();

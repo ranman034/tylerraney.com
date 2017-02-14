@@ -33,7 +33,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 		List<Photograph> thePhotos = null;
 
 		try {
-			System.out.println("Quering photo objects...");
+//			System.out.println("Quering photo objects...");
 
 			// start a transaction
 			m_session.beginTransaction();
@@ -59,7 +59,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 			// commit transaction
 			m_session.getTransaction().commit();
 
-			System.out.println("Done!");
+//			System.out.println("Done!");
 		}
 		finally {
 			m_factory.close();
@@ -80,7 +80,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 		List<Photograph> thePhotos = null;
 
 		try {
-			System.out.println("Quering photo objects...");
+//			System.out.println("Quering photo objects...");
 
 			// start a transaction
 			m_session.beginTransaction();
@@ -103,16 +103,15 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 				}
 			}
 			thePhotos = m_session.createQuery(query.toString()).getResultList();
-			System.out.println("stop");
 			
-			for (Photograph tempPhoto : thePhotos) {
-				System.out.println(tempPhoto);
-			}
+//			for (Photograph tempPhoto : thePhotos) {
+//				System.out.println(tempPhoto);
+//			}
 
 			// commit transaction
 			m_session.getTransaction().commit();
 
-			System.out.println("Done!");
+//			System.out.println("Done!");
 		}
 		finally {
 			m_factory.close();

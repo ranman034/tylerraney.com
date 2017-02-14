@@ -20,7 +20,7 @@ public class ImportPhotos {
 
 		try {
 			// create a student object
-			System.out.println("Creating new photo object...");
+//			System.out.println("Creating new photo object...");
 			/*
 			Photograph tempPhoto = new Photograph("Party in Japan", "resources/img/800x600/DSC02744takaandjun.jpg", 
 					"resources/img/thumbnails/DSC02744takaandjun.jpg", "japan,asia,people");
@@ -159,7 +159,7 @@ public class ImportPhotos {
 			// commit transaction
 			session.getTransaction().commit();
 
-			System.out.println("Done!");
+//			System.out.println("Done!");
 		}
 		finally {
 			factory.close();

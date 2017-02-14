@@ -1,3 +1,6 @@
 target/*
 build/*
 *.cfg.xml
+/bin/
+/build/
+/target/
