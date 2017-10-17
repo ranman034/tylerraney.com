@@ -4,3 +4,6 @@ build/*
 /bin/
 /build/
 /target/
+/src/com/tylerraney/test/ImportPhotos.java
+/src/com/tylerraney/test/TestDb.java
+/src/com/tylerraney/test/PhotographTest.java

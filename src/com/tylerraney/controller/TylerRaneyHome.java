@@ -26,24 +26,30 @@ public class TylerRaneyHome {
 		PhotographManager photoManager = new HomePhotographManager();
 
 		// add tags to the model
-		model.addAttribute("tags", photoManager.getUniqueTags());
+		model.addAttribute("tags", photoManager.getUniqueTagsAsString());
 		
 		return "home";
 	}
 	
-	/* this is the conroller's part of the magic; I'm just using a simple GET but you
-     * could just as easily do a POST here, obviously
-     */
+	/**
+	 * 
+	 * Gets the photographs with the specified tags otherwise returna all photos
+	 * 
+	 * @param model
+	 * @param myTags
+	 * @return view
+	 */
     @RequestMapping( method=RequestMethod.GET, value="/photos" )
     public String getSubView( Model model, @RequestParam(value="myTags[]") String[] myTags) {
     	PhotographManager photoManager = new HomePhotographManager();
     	
-    	if(myTags.length == photoManager.getUniqueTags().split(",").length)
+    	if(myTags.length == photoManager.getUniqueTags().size())
     	{
     		myTags = null;
+    		model.addAttribute("photos", photoManager.getAllPhotographs());
+    	} else {
+    		model.addAttribute("photos", photoManager.getPhotographsByTags(myTags));
     	}
-    	
-    	model.addAttribute("photos", photoManager.getPhotographs(myTags));
     	
         return "photos";
     }

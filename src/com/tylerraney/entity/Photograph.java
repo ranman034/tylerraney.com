@@ -1,12 +1,19 @@
 package com.tylerraney.entity;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -40,15 +47,27 @@ public class Photograph implements Serializable {
 	@Column(name="tags")
 	private String tags;
 
+	@ManyToMany(
+			fetch=FetchType.LAZY,
+			cascade = {CascadeType.PERSIST, CascadeType.MERGE,
+					CascadeType.DETACH, CascadeType.REFRESH})
+    @JoinTable(
+    		name = "photograph_tag",
+    		joinColumns = @JoinColumn(name = "photograph_id"),
+    		inverseJoinColumns = @JoinColumn(name = "tag_id")
+    		)
+	private Set<Tag> phototags;
+
 	public Photograph() {
 		
 	}
 	
-	public Photograph(String title, String photoLocation, String thumbnailLocation, String tags) {
+	public Photograph(String title, String photoLocation, String thumbnailLocation, String tags, Set<Tag> phototags) {
 		this.title = title;
 		this.photoLocation = photoLocation;
 		this.thumbnailLocation = thumbnailLocation;
 		this.tags = tags;
+		this.phototags = phototags;
 	}
 
 	public int getId() {
@@ -84,24 +103,28 @@ public class Photograph implements Serializable {
 	}
 
 	public String getTags() {
-		//int length = this.tags != null ? this.tags.length : 0;
-		//String[] tempTags = new String[length];
-		//for (int i = 0; i < length; i++)
-		//{
-		//	tempTags[i] = this.tags[i].toLowerCase();
-		//}
-		
 		return tags.toLowerCase();
 	}
 
 	public void setTags(String tags) {
-		//String[] tempTags = new String[tags.length];
-		//for (int i = 0; i < tags.length; i++)
-		//{
-		//	tempTags[i] = tags[i].toLowerCase();
-		//}
-		
 		this.tags = tags.toLowerCase();
+	}
+	
+    public Set<Tag> getPhotoTags() {
+        return phototags;
+    }
+	
+	public void setPhotoTags(Set<Tag> phototags) {
+        this.phototags = phototags;
+    }
+	
+	// add tag
+	public void addTag(Tag theTag) {
+		if (phototags == null){
+			phototags = new HashSet<Tag>();
+		}
+		
+		phototags.add(theTag);
 	}
 
 	@Override

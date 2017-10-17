@@ -37,7 +37,7 @@ public class ImportPhotos {
 			Photograph tempPhoto6 = new Photograph("Peruvian Sand Dunes", "resources/img/800x600/IMG_1080.jpg", 
 					"resources/img/thumbnails/IMG_1080.jpg", "peru,south-america,landscape");
 			*/
-			Photograph tempPhoto7 = new Photograph("Vicu&ntilde;a", "resources/img/800x600/IMG_1733.jpg", 
+/*			Photograph tempPhoto7 = new Photograph("Vicu&ntilde;a", "resources/img/800x600/IMG_1733.jpg", 
 					"resources/img/thumbnails/IMG_1733.jpg", "peru,south-america,animals");
 			Photograph tempPhoto8 = new Photograph("Peruvian Salt Mines", "resources/img/800x600/IMG_1918.jpg", 
 					"resources/img/thumbnails/IMG_1918.jpg", "peru,south-america,landscape");
@@ -65,7 +65,7 @@ public class ImportPhotos {
 					"resources/img/thumbnails/IMG_7044.jpg", "california,north-america,usa,landscape");
 			Photograph tempPhoto20 = new Photograph("Marin Mornings", "resources/img/800x600/IMG_6503.jpg", 
 					"resources/img/thumbnails/IMG_6503.jpg", "california,north-america,usa,landscape");
-
+*/
 			/*
 				<a href="resources/img/800x600/IMG_1733.jpg" title="Vicu&ntilde;a"
 					data-gallery> <img src="resources/img/thumbnails/IMG_1733.jpg"
@@ -141,7 +141,7 @@ public class ImportPhotos {
 //			session.save(tempPhoto4);
 //			session.save(tempPhoto5);
 //			session.save(tempPhoto6);
-			session.save(tempPhoto7);
+/*			session.save(tempPhoto7);
 			session.save(tempPhoto8);
 			session.save(tempPhoto9);
 			session.save(tempPhoto10);
@@ -154,7 +154,7 @@ public class ImportPhotos {
 			session.save(tempPhoto17);
 			session.save(tempPhoto18);
 			session.save(tempPhoto19);
-			session.save(tempPhoto20);
+			session.save(tempPhoto20);*/
 
 			// commit transaction
 			session.getTransaction().commit();
