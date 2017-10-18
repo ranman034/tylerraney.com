@@ -43,12 +43,12 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 	public List<Photograph> getAllPhotographs() {
 		createSession();
 		
-		Set<Photograph> photos = new HashSet<Photograph>();
+		List<Photograph> photos = new ArrayList<Photograph>();
 		
 		try {
 			// start a transaction
 			m_session.beginTransaction();
-			photos.addAll(m_session.createQuery("from Photograph").getResultList());
+			photos.addAll(m_session.createQuery("from Photograph p order by p.title").getResultList());
 			
 			// commit transaction
 			m_session.getTransaction().commit();
@@ -57,7 +57,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 			m_factory.close();
 		}
 		
-		return new ArrayList<Photograph>(photos);
+		return photos;
 	}
 
 	/**
@@ -68,8 +68,8 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 	public List<Photograph> getPhotographsByTags(String[] tags) {
 		createSession();
 	
-		Set<Tag> tagSet = new HashSet<Tag>();
-		Set<Photograph> thePhotos = new HashSet<Photograph>();
+		List<Tag> tagSet = new ArrayList<Tag>();
+		List<Photograph> thePhotos = new ArrayList<Photograph>();
 		
 		try{
 			// start a transaction
@@ -92,7 +92,8 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 					query.append(" t.name='" + tags[i] + "'");
 				}
 			}
-			tagSet.addAll((List<Tag>)m_session.createQuery(query.toString()).getResultList());
+			query.append(" order by t.name");
+			tagSet.addAll(m_session.createQuery(query.toString()).getResultList());
 			
 			for (Tag t : tagSet) {
 				if (thePhotos.isEmpty()){
@@ -109,7 +110,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 			m_factory.close();
 		}
 		
-		return new ArrayList<Photograph>(thePhotos);
+		return thePhotos;
 	}
 
 	/**
@@ -117,15 +118,15 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public Set<Tag> getUniqueTags() {
+	public List<Tag> getUniqueTags() {
 		createSession();
 
-		Set<Tag> tags = new HashSet<Tag>();
+		List<Tag> tags = new ArrayList<Tag>();
 
 		try {
 			// start a transaction
 			m_session.beginTransaction();
-			tags.addAll(m_session.createQuery("from Tag").getResultList());
+			tags.addAll(m_session.createQuery("from Tag t order by t.name").getResultList());
 
 			// commit transaction
 			m_session.getTransaction().commit();
