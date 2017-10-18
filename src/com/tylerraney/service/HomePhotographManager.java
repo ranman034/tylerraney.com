@@ -87,7 +87,7 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 				{
 					if (i > 0)
 					{
-						query.append(" and ");
+						query.append(" or ");
 					}
 					query.append(" t.name='" + tags[i] + "'");
 				}
@@ -95,7 +95,11 @@ public class HomePhotographManager implements PhotographManager, Serializable {
 			tagSet.addAll((List<Tag>)m_session.createQuery(query.toString()).getResultList());
 			
 			for (Tag t : tagSet) {
-				thePhotos.addAll(t.getPhotographs());
+				if (thePhotos.isEmpty()){
+					thePhotos.addAll(t.getPhotographs());					
+				} else {
+					thePhotos.retainAll(t.getPhotographs());
+				}
 			}
 			
 			// commit transaction
